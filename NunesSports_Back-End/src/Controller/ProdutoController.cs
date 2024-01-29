@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NunesSport_Back_End.src.Data;
 using NunesSport_Back_End.src.Models;
-
+//aa
 namespace NunesSports_Back_End.src.Controller{
 
     [ApiController]
