@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'NunesSport_Front-End' title`, () => {
+  it(`should have the 'NunesSports_Front-End' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('NunesSport_Front-End');
+    expect(app.title).toEqual('NunesSports_Front-End');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, NunesSport_Front-End');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, NunesSports_Front-End');
   });
 });

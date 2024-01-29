@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "NunesSport_Front-End": {
+    "NunesSports_Front-End": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/nunes-sport-front-end",
+            "outputPath": "dist/nunes-sports-front-end",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "NunesSport_Front-End:build:production"
+              "buildTarget": "NunesSports_Front-End:build:production"
             },
             "development": {
-              "buildTarget": "NunesSport_Front-End:build:development"
+              "buildTarget": "NunesSports_Front-End:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "NunesSport_Front-End:build"
+            "buildTarget": "NunesSports_Front-End:build"
           }
         },
         "test": {
@@ -96,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1760f331-cad9-4e91-b5b8-de5448b89d25"
   }
 }

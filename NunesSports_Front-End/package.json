@@ -1,5 +1,5 @@
 {
-  "name": "nunes-sport-front-end",
+  "name": "nunes-sports-front-end",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:NunesSport_Front-End": "node dist/nunes-sport-front-end/server/server.mjs"
+    "serve:ssr:NunesSports_Front-End": "node dist/nunes-sports-front-end/server/server.mjs"
   },
   "private": true,
   "dependencies": {

@@ -17,7 +17,7 @@ namespace NunesSports_Back_End.src.Controller{
 
         [HttpGet]
         [Route("listar")]
-        public async Task<ActionResult<IEnumerable<Produto>>> Listar()
+        public async Task<ActionResult<List<Produto>>> Listar()
         {
             if(_context.Produto is null)
                 return NotFound();
