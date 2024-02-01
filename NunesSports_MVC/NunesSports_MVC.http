@@ -1,0 +1,6 @@
+@NunesSports_Back_End_HostAddress = http://localhost:5079
+
+GET {{NunesSports_MVC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
