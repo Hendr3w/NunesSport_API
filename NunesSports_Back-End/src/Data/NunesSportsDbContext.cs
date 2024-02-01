@@ -9,7 +9,7 @@ namespace NunesSport_Back_End.src.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "Data Source=nunesSports.db";
+            string connectionString = "Data Source=NunesSports.db;";
 
             optionsBuilder.UseSqlite(connectionString);
         }

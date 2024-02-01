@@ -64,7 +64,7 @@ namespace NunesSports_Back_End.src.Controller{
                 return !(await _context.Produto.AnyAsync(p => p.CodProduto == cod));
             else
             {
-                return !(await _context.Produto
+                return (await _context.Produto
                     .Where(p => p.CodProduto == cod && p.Id != id)
                     .AnyAsync());
             }
